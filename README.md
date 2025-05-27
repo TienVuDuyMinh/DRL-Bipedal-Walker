@@ -20,12 +20,16 @@ Dự án này áp dụng các thuật toán **Deep Reinforcement Learning (DRL)*
 
 ## 🗂️ Cấu trúc thư mục
 
+## 🗂️ Cấu trúc thư mục
+
+```plaintext
 BipedalWalker-DRL/
-│
-├── Env/ # Định nghĩa môi trường, wrapper, seed, preprocessing
-├── Dqn/ # Thuật toán DQN, Double DQN
-├── Policy/ # Thuật toán chính sách: REINFORCE, PPO
-├── Training/ # File train cho từng thuật toán
-├── Result/ # Lưu kết quả đánh giá, biểu đồ học
+├── Env/             # Định nghĩa môi trường, wrapper, seed, preprocessing
+├── Dqn/             # Thuật toán DQN, Double DQN
+├── Policy/          # Thuật toán chính sách: REINFORCE, PPO
+├── Training/        # File train cho từng thuật toán
+├── Result/          # Lưu kết quả đánh giá, biểu đồ học
+├── Vid/             # Quay video quá trình hoạt động của agent
 ├── requirements.txt # Thư viện cần cài đặt
-└── README.md # Mô tả dự án
+└── README.md        # Mô tả dự án
+
