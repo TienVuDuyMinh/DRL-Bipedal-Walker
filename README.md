@@ -20,8 +20,6 @@ Dự án này áp dụng các thuật toán **Deep Reinforcement Learning (DRL)*
 
 ## 🗂️ Cấu trúc thư mục
 
-## 🗂️ Cấu trúc thư mục
-
 ```plaintext
 BipedalWalker-DRL/
 ├── Env/             # Định nghĩa môi trường, wrapper, seed, preprocessing
